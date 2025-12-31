@@ -4,8 +4,8 @@ import 'package:video_player/video_player.dart';
 import 'package:chewie/chewie.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-import '../../providers/download_provider.dart';
-import '../../core/services/encryption_service.dart';
+import '../../../../providers/download_provider.dart';
+import '../../../../core/services/encryption_service.dart';
 
 class VideoPlayerScreen extends StatefulWidget {
   final int lessonId;
